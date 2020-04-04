@@ -117,6 +117,22 @@ a{
     margin: auto 10px;
 }
 
+.progress-item{
+    display: block;
+}
+
 .progress-item:hover{
     font-weight: bold;
+}
+
+.progress-item-selected{
+    color: #FF5A5F;
+}
+
+input {
+    float: left;
+}
+
+label{
+    display: block;
 }

@@ -12,12 +12,14 @@ class ProgressItem extends React.Component{
     }
 
     render(){
+        var progressItemClass = "progress-item"
+        if(this.props.status){
+            progressItemClass = "progress-item-selected"
+        }
         return(
-            <div class="progress-item">
-                <input type="checkbox" class="project-button" onClick={this.state.handleClick}>
-                </input>
-                <label>{this.state.name}</label>
-            </div>
+            <label class={progressItemClass}>{this.state.name}
+                <input type="checkbox" onClick={this.state.handleClick}></input>
+            </label>
         )
     }
 

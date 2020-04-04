@@ -92,25 +92,25 @@ class Progressbar extends React.Component{
                 <ProgressItem 
                     handleClick={() => this.handleClick(28, "Plumbing")} 
                     name={"Plumbing (2 Days)"}
-                    status={false}
+                    status={this.state.statusPlumbing}
                 />
 
                 <ProgressItem 
                     handleClick={() => this.handleClick(22, "Floor Removal")} 
                     name={"Floor Removal (1 Day)"}
-                    status={false}
+                    status={this.state.statusFloorRemoval}
                 />
 
                 <ProgressItem 
                     handleClick={() => this.handleClick(30, "Floor Installation")} 
                     name={"Floor Installation (2 Days)"}
-                    status={false}
+                    status={this.state.statusFloorInstallation}
                 />
                 
                 <ProgressItem 
                     handleClick={() => this.handleClick(20, "Painting")} 
                     name={"Painting (2 Days)"}
-                    status={false}
+                    status={this.state.statusPainting}
                 />
             </div>
         );
