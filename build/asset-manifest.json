@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4a93880b.chunk.css",
+    "main.js": "/static/js/main.5f05c9f1.chunk.js",
+    "main.js.map": "/static/js/main.5f05c9f1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.0d48592e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.0d48592e.js.map",
+    "static/js/2.8fbaec95.chunk.js": "/static/js/2.8fbaec95.chunk.js",
+    "static/js/2.8fbaec95.chunk.js.map": "/static/js/2.8fbaec95.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.4f7ea9562ace06a326ffc9d87baea89e.js": "/precache-manifest.4f7ea9562ace06a326ffc9d87baea89e.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.4a93880b.chunk.css.map": "/static/css/main.4a93880b.chunk.css.map",
+    "static/js/2.8fbaec95.chunk.js.LICENSE.txt": "/static/js/2.8fbaec95.chunk.js.LICENSE.txt",
+    "static/media/acoutera-logo.png": "/static/media/acoutera-logo.5c947e45.png",
+    "static/media/profile-pic.jpg": "/static/media/profile-pic.a2449c10.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0d48592e.js",
+    "static/js/2.8fbaec95.chunk.js",
+    "static/css/main.4a93880b.chunk.css",
+    "static/js/main.5f05c9f1.chunk.js"
+  ]
+}
