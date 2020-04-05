@@ -23,10 +23,10 @@ class Navbar extends React.Component{
                     <i className="fa fa-bars"></i>
                 </button>
                 <div className={this.state.mobileMenu ? "responsive navbar-list" : "navbar-list"}>
-                    <a href="#">My Dashboard</a>
-                    <a href="#">Messages</a>
-                    <a href="#">About Us</a>
-                    <a href="#">Contact Us</a>
+                    <a href="/">My Dashboard</a>
+                    <a href="/">Messages</a>
+                    <a href="/">About Us</a>
+                    <a href="/">Contact Us</a>
                 </div>
             </div>
         );

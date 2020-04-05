@@ -12,9 +12,9 @@ class Sidebar extends React.Component{
                 </div>
 
                 <div className="sidebar-nav">
-                    <a href="#">Messages</a>
-                    <a href="#">Contractors</a>
-                    <a href="#">Settings</a>
+                    <a href="/">Messages</a>
+                    <a href="/">Contractors</a>
+                    <a href="/">Settings</a>
                 </div>
             </div>
         );
