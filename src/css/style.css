@@ -46,7 +46,7 @@ a{
 }
 
 
-.logo:hover, .navbar-list a:hover, .sidebar-nav a:hover, button:hover{
+.logo:hover, .navbar-list a:hover, .sidebar-nav a:hover{
     opacity: 50%;
     animation-delay: 0.2ms;
     transition: 0.3s;
