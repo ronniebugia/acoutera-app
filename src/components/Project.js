@@ -2,19 +2,21 @@ import React from 'react'
 import Progressbar from '../components/Progressbar'
 
 class Project extends React.Component{
-
+    constructor(props) {
+        super(props);
+        this.state = {
+          address:this.props.address,
+          todo:this.props.todo
+        };
+    }
     render(){
         return(
-            <div class="project-card">
-                <h2>My Project - 4827 West 9th Avenue, Vancouver</h2>
+            <div className="project-card">
+                <h2>{this.state.address}</h2>
                 <p>Timeline</p>
                 <Progressbar 
-                
-                    percentage={0} 
-                    statusPlumbing={false}
-                    statusFloorRemoval={false}
-                    statusFloorInstallation={false}
-                    statusPainting={false}
+                    name={this.state.address}
+                    todo={this.state.todo}
                 />
             </div>
         );
