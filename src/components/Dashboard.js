@@ -10,7 +10,7 @@ class Dashboard extends React.Component{
                 { name: "Plumbing", isChecked: false, days: 2 },
                 { name: "Floor Installation", isChecked: false, days: 1 },
                 { name: "Floor Removal", isChecked: false, days: 2 },
-                { name: "Paint", isChecked: false, days: 2 },
+                { name: "Painting", isChecked: false, days: 2 },
                 ] },
           ],
         };
