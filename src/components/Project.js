@@ -17,6 +17,7 @@ class Project extends React.Component{
                 <Progressbar 
                     name={this.state.address}
                     todo={this.state.todo}
+                    percentage={0}
                 />
             </div>
         );
